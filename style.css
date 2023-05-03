@@ -1,0 +1,42 @@
+#centralizada{
+    border: solid 1px black;
+    background-color: rgb(162, 162, 162);    align-items: center;
+}
+.tudo {
+    display: flex;
+    flex-direction: column;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    align-self: center;
+}
+.divs1{
+
+    background-color: black;   
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    
+}
+
+button{
+
+    width: 50%;
+}
+
+.linha{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
